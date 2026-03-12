@@ -1,0 +1,17 @@
+# Reserve Orchito start
+- type: entity
+  parent: DrinkGlass
+  id: DrinkOrchitoGlass
+  suffix: orchito
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Orchito
+          Quantity: 30
+  - type: Icon
+    sprite: Objects/Consumable/Drinks/orchito.rsi
+    state: icon
+# Reserve Orchito end
