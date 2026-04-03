@@ -1,11 +1,11 @@
 - type: customGhost
   id: default
   category: color
-  proto: MobObserver
+  entity: MobObserver
 
 - type: customGhost
   id: red
-  proto: MobObserverRed
+  entity: MobObserverRed
   category: color
   restrictions:
   - !type:PlaytimeServerRestriction
@@ -29,7 +29,7 @@
 - type: customGhost
   id: green
   category: color
-  proto: MobObserverGreen
+  entity: MobObserverGreen
   restrictions:
   - !type:PlaytimeServerRestriction
     hoursPlaytime: 1
@@ -50,7 +50,7 @@
 - type: customGhost
   id: blue
   category: color
-  proto: MobObserverBlue
+  entity: MobObserverBlue
   restrictions:
   - !type:PlaytimeServerRestriction
     hoursPlaytime: 1
@@ -71,7 +71,7 @@
 - type: customGhost
   id: violet
   category: color
-  proto: MobObserverViolet
+  entity: MobObserverViolet
   restrictions:
   - !type:PlaytimeServerRestriction
     hoursPlaytime: 1
@@ -92,7 +92,7 @@
 - type: customGhost
   id: pink
   category: color
-  proto: MobObserverPink
+  entity: MobObserverPink
   restrictions:
   - !type:PlaytimeServerRestriction
     hoursPlaytime: 1
@@ -113,7 +113,7 @@
 - type: customGhost
   id: yellow
   category: color
-  proto: MobObserverYellow
+  entity: MobObserverYellow
   restrictions:
   - !type:PlaytimeServerRestriction
     hoursPlaytime: 1
@@ -164,7 +164,7 @@
 - type: customGhost
   id: heart
   category: misc
-  proto: MobObserverHeart
+  entity: MobObserverHeart
   restrictions:
   - !type:PlaytimeDepartmentRestriction
     department: Civilian
@@ -187,7 +187,7 @@
 - type: customGhost
   id: discoCat
   category: misc
-  proto: MobObserverDiscoCat
+  entity: MobObserverDiscoCat
   restrictions:
   - !type:PlaytimeServerRestriction
     hoursPlaytime: 6
@@ -209,7 +209,7 @@
 - type: customGhost
   id: disappointment
   category: misc
-  proto: MobObserverDisappointment
+  entity: MobObserverDisappointment
   restrictions:
   - !type:PlaytimeJobRestriction
     job: Clown
@@ -231,7 +231,7 @@
 - type: customGhost
   id: king
   category: misc
-  proto: MobObserverKing
+  entity: MobObserverKing
   restrictions:
   - !type:PlaytimeDepartmentRestriction
     department: Science
@@ -264,7 +264,7 @@
 - type: customGhost
   id: blazeit
   category: color
-  proto: MobObserverBlazeit
+  entity: MobObserverBlazeit
   restrictions:
   - !type:PlaytimeJobRestriction
     job: Botanist
@@ -285,7 +285,7 @@
 - type: customGhost
   id: rainbow
   category: color
-  proto: MobObserverRainbow
+  entity: MobObserverRainbow
   restrictions:
   - !type:PlaytimeServerRestriction
     hoursPlaytime: 4
@@ -305,7 +305,7 @@
 - type: customGhost
   id: kitty
   category: misc
-  proto: MobObserverKitty
+  entity: MobObserverKitty
   restrictions:
   - !type:PlaytimeServerRestriction
     hoursPlaytime: 4
@@ -325,7 +325,7 @@
 - type: customGhost
   id: ian
   category: misc
-  proto: MobObserverIan
+  entity: MobObserverIan
   restrictions:
   - !type:PlaytimeServerRestriction
     hoursPlaytime: 4
@@ -345,7 +345,7 @@
 - type: customGhost
   id: fire
   category: color
-  proto: MobObserverFire
+  entity: MobObserverFire
   restrictions:
   - !type:PlaytimeJobRestriction
     job: AtmosphericTechnician
@@ -366,7 +366,7 @@
 - type: customGhost
   id: skeleton
   category: misc
-  proto: MobObserverSkeleton
+  entity: MobObserverSkeleton
   restrictions:
   - !type:PlaytimeServerRestriction
     hoursPlaytime: 4
@@ -386,7 +386,7 @@
 - type: customGhost
   id: frog
   category: misc
-  proto: MobObserverFrog
+  entity: MobObserverFrog
   restrictions:
   - !type:PlaytimeServerRestriction
     hoursPlaytime: 4
@@ -406,7 +406,7 @@
 - type: customGhost
   id: rooster
   category: misc
-  proto: MobObserverRooster
+  entity: MobObserverRooster
   restrictions:
   - !type:PlaytimeServerRestriction
     hoursPlaytime: 4
@@ -426,7 +426,7 @@
 - type: customGhost
   id: mouse
   category: misc
-  proto: MobObserverMouse
+  entity: MobObserverMouse
   restrictions:
   - !type:PlaytimeServerRestriction
     hoursPlaytime: 4
@@ -446,7 +446,7 @@
 - type: customGhost
   id: parrot
   category: misc
-  proto: MobObserverParrot
+  entity: MobObserverParrot
   restrictions:
   - !type:PlaytimeServerRestriction
     hoursPlaytime: 6

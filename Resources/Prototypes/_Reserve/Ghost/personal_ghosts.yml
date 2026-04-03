@@ -129,3 +129,21 @@
   components:
   - type: Sprite
     sprite: _Reserve/Ghosts/thxmqninq-ghost.rsi
+
+- type: customGhost
+  id: perlovka_is_my_name
+  category: personal
+  entity: MobObserverCkeyPerlovkaIsMyName
+  restrictions:
+  - !type:CkeyRestriction
+    ckey: [perlovka_is_my_name]
+  name: Перловка
+  description: Waiting...
+
+- type: entity
+  parent: MobObserverCkey
+  id: MobObserverCkeyPerlovkaIsMyName
+  components:
+  - type: Sprite
+    sprite: _Reserve/Ghosts/perlovka_is_my_name.rsi
+    color: "#FFFFFF"
