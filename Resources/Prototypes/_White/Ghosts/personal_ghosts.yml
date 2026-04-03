@@ -10,7 +10,7 @@
 - type: customGhost
   id: customPlaceholder
   category: personal
-  entity: MobObserverCkeyPlaceholder
+  proto: MobObserverCkeyPlaceholder
   restrictions:
   - !type:CkeyRestriction
     ckey: [Duga] # Reserve edit, сука редкокс добавил мой скей сюда
