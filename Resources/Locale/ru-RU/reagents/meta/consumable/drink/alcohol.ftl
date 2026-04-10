@@ -122,17 +122,13 @@ reagent-name-irish-cream = ирландские сливки
 reagent-desc-irish-cream = Сливки с добавлением виски. Что ещё можно ожидать от ирландцев.
 reagent-name-irish-coffee = ирландский кофе
 reagent-desc-irish-coffee = Кофе с ирландскими сливками. Обычные сливки - это совсем не то!
-<<<<<<< add-missing-visuals-to-drinks
-reagent-name-kira-special = киира спешл
-=======
 reagent-name-jack-rose = Джек Роуз
 reagent-desc-jack-rose = Чрезмерно красный.
 reagent-name-jungle-bird = птица джунглей
 reagent-desc-jungle-bird = Несмотря на название, она не особо популярна среди воксов.
 reagent-name-kalimotxo = калимотхо
 reagent-desc-kalimotxo = Высококлассный Куба Либре для искушенных ценителей алкоголя.
-reagent-name-kira-special = кира спешл
->>>>>>> master
+reagent-name-kira-special = киира спешл
 reagent-desc-kira-special = Да здравствует парень, которого все принимали за девушку. Бака!
 reagent-name-tortuga = тортуга
 reagent-desc-tortuga = Идеальна для пиратов которых назначили водить. Йо-хо-хо!
