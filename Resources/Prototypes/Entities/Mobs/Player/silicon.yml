@@ -491,7 +491,6 @@
     - NewKinPidgin
   - type: SpeechSynthesis # Corvax-Frontier-Barks
     voice: Borg
->>>>>>> goob-local/master
 
 # Hologram projection that the AI's eye tracks.
 - type: entity
