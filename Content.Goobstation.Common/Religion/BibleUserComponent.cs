@@ -2,8 +2,6 @@
 // SPDX-FileCopyrightText: 2023 DrSmugleaf <DrSmugleaf@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2022 wrexbe <81056464+wrexbe@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2023 DrSmugleaf <DrSmugleaf@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
 // SPDX-FileCopyrightText: 2025 Solstice <solsticeofthewinter@gmail.com>
 // SPDX-FileCopyrightText: 2025 SolsticeOfTheWinter <solsticeofthewinter@gmail.com>
@@ -14,25 +12,19 @@ using Robust.Shared.GameStates; // Goobstation
 
 namespace Content.Goobstation.Common.Religion;
 
-[RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
+/// <summary>
+/// EntityQuery Tracking Component for Summonables that are counting up a respawn.
+/// </summary>
+[RegisterComponent]
+public sealed partial class SummonableRespawningComponent : Component
+{}
+
+[RegisterComponent, NetworkedComponent, AutoGenerateComponentState] // Goobstation - Network that bitch!
 public sealed partial class BibleUserComponent : Component
 {
     /// <summary>
-<<<<<<< HEAD
-    /// EntityQuery Tracking Component for Summonables that are counting up a respawn.
-    /// </summary>
-    [RegisterComponent]
-    public sealed partial class SummonableRespawningComponent : Component
-    {}
-
-    [RegisterComponent, NetworkedComponent] // Goobstation - Network that bitch!
-    public sealed partial class BibleUserComponent : Component
-    {
-    }
-=======
     /// Bound Nullrod
     /// </summary>
     [ViewVariables, AutoNetworkedField]
     public EntityUid? NullRod;
->>>>>>> goob-local/master
 }
