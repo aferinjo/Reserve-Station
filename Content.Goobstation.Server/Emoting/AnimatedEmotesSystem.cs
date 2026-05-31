@@ -43,20 +43,4 @@ public sealed partial class AnimatedEmotesSystem : SharedAnimatedEmotesSystem
         if (prot == "Flip")
             ApplyFlipEffects(ent);
     }
-
-    private void OnBeforeEmote(Entity<AnimatedEmotesComponent> ent, ref BorgFlippingEvent args)
-    {
-        if (!_battery.TryGetBatteryComponent(ent, out var batteryComponent, out var battery))
-        {
-            args.BeforeEmote.Cancel();
-            return;
-        }
-        var tenPercent = batteryComponent.MaxCharge * (args.Cost/100);
-        if (batteryComponent.CurrentCharge < tenPercent * 0.50) // leeway on final flip so they can flip -> discharge.
-        {
-            args.BeforeEmote.Cancel();
-            return;
-        }
-        _battery.UseCharge(battery.Value, tenPercent, batteryComponent);
-    }
 }

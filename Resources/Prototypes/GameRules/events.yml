@@ -181,7 +181,6 @@
     - id: ClownGoblinMigration # Goobstation - New Midrounds
     # - id: SantaClausSpawn # Goobstation, remove after new year
 
-
 - type: entityTable
   id: BasicAntagEventsTable
   table: !type:AllSelector # we need to pass a list of rules, since rules have further restrictions to consider via StationEventComp
@@ -705,6 +704,10 @@
   - type: GameRule
     chaosScore: 70
   - type: VentClogRule
+    weakReagents:
+    - Slime
+    - SpaceGlue
+    - SpaceLube
 
 - type: entity
   id: SlimesSpawn
