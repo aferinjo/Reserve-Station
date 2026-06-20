@@ -1,4 +1,4 @@
-﻿job-alt-title-reminder =  Мы не рекомендуем вам использовать звание [color=#33ccff]"{$altTitle}"[/color] в качестве предлога для того, чтобы отказываться от вашей основной работы (ваша должность - [color=#ffffff]{$jobName}[/color]).
+job-alt-title-reminder =  Мы не рекомендуем вам использовать звание [color=#33ccff]"{$altTitle}"[/color] в качестве предлога для того, чтобы отказываться от вашей основной работы (ваша должность - [color=#ffffff]{$jobName}[/color]).
 
 job-name-alt-medical-1 = Хирург
 job-name-alt-medical-2 = Медбрат
