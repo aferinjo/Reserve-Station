@@ -692,3 +692,9 @@ Entries:
       message: Апстрим с Goob Station на 27.06!
   id: 87
   time: '2026-06-27T05:55:49.0000000+00:00'
+- author: lermal
+  changes:
+    - type: Fix
+      message: Письма снова можно вскрывать острыми предметами.
+  id: 88
+  time: '2026-06-28T02:07:24.0000000+00:00'
